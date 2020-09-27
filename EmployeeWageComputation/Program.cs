@@ -36,6 +36,25 @@ namespace EmployeeWageComputation
             }
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage : " + empWage);
+            Console.WriteLine("By Switch Case");
+            //Computation
+            switch(empCheck)
+            {
+                case 1:
+                    empHrs = 4;
+                    Console.WriteLine("Is Part Time");
+                    break;
+                case 2:
+                    empHrs = 8;
+                    Console.WriteLine("Is Full Time");
+                    break;
+                case 0:
+                    empHrs = 0;
+                    Console.WriteLine("Is Absent");
+                    break;
+            }
+            empWage = empHrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine("Emp Wage :" + empWage);
         }
     }
 }
