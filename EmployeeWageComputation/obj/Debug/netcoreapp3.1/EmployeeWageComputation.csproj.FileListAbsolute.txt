@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 =======
+>>>>>>> UC-5
 F:\Projects_Programs\Assignments\EmployeeWage\EmployeeWageComputation\obj\Debug\netcoreapp3.1\EmployeeWageComputation.csprojAssemblyReference.cache
 F:\Projects_Programs\Assignments\EmployeeWage\EmployeeWageComputation\obj\Debug\netcoreapp3.1\EmployeeWageComputation.AssemblyInfoInputs.cache
 F:\Projects_Programs\Assignments\EmployeeWage\EmployeeWageComputation\obj\Debug\netcoreapp3.1\EmployeeWageComputation.AssemblyInfo.cs

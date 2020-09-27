@@ -55,6 +55,12 @@ namespace EmployeeWageComputation
             }
             empWage = empHrs * EMP_RATE_PER_HOUR;
             Console.WriteLine("Emp Wage :" + empWage);
+            int NO_OF_WORKING_DAY_PER_MONTH = 20;
+            //variables
+            int TOTAL_MONTH_WAGE = 0;
+            //Computation
+            TOTAL_MONTH_WAGE = empHrs * EMP_RATE_PER_HOUR * NO_OF_WORKING_DAY_PER_MONTH;
+            Console.WriteLine("Total Wage per month is " + TOTAL_MONTH_WAGE);
         }
     }
 }
