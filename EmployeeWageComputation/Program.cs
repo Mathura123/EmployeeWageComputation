@@ -61,6 +61,20 @@ namespace EmployeeWageComputation
             //Computation
             TOTAL_MONTH_WAGE = empHrs * EMP_RATE_PER_HOUR * NO_OF_WORKING_DAY_PER_MONTH;
             Console.WriteLine("Total Wage per month is " + TOTAL_MONTH_WAGE);
+       
+            Random randomNo = new Random();
+            int dayReachedOrNOT = randomNo.Next(0, 2);
+            switch(dayReachedOrNOT)
+            {
+                case 0:
+                    empHrs = 100;
+                    break;
+                case 1:
+                    empHrs = 8 * 20;
+                    break;
+            }
+            empWage = empHrs * EMP_RATE_PER_HOUR;
+            Console.WriteLine("Emp Wage is "+ empWage);
         }
     }
 }
